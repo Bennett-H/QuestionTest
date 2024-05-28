@@ -6,6 +6,7 @@ public class J47Test {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        String token = "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";
         while (scanner.hasNext()) {
             int n = scanner.nextInt();
             int distance = scanner.nextInt();

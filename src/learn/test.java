@@ -1,5 +1,7 @@
 package learn;
 
+import java.util.PriorityQueue;
+import java.util.Queue;
 import java.util.Random;
 import java.util.StringJoiner;
 
@@ -8,6 +10,11 @@ public class test {
     public static void main(String[] args) {
 
         Person person = new Person();
+        person.setName("12");
+        Queue<Person> queue = new PriorityQueue<>();
+        person.setName("122222");
+        queue.offer(person);
+        System.out.println(queue.peek().getName());
 
         String a = "kasd";
         a = "1";
